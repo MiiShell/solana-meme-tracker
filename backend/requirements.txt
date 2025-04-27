@@ -1,0 +1,13 @@
+fastapi==0.103.0
+uvicorn==0.23.2
+sqlalchemy==2.0.20
+psycopg2-binary==2.9.7
+redis==5.0.0
+celery==5.3.4
+tweepy==4.14.0
+requests==2.31.0
+transformers==4.33.0
+spacy==3.6.1
+tenacity==8.2.3
+prometheus-client==0.17.1
+python-dotenv==1.0.0

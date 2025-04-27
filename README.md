@@ -141,7 +141,7 @@ Follow these steps to set up and test the application locally.
     bash
     
     ```
-    <span class="token" style="color: rgb(220, 220, 170);">cp</span><span> .env.example .env</span>
+    cp .env.example .env
     ```
     
     Edit .env to include your API keys (replace testcredentials with actual keys):
@@ -163,8 +163,8 @@ Follow these steps to set up and test the application locally.
     bash
     
     ```
-    <span class="token" style="color: rgb(78, 201, 176);">cd</span><span> frontend
-    </span><span></span><span class="token" style="color: rgb(220, 220, 170);">npm</span><span> </span><span class="token" style="color: rgb(220, 220, 170);">install</span>
+    cd frontend
+    npm install
     ```
     
     Test the frontend locally:
@@ -172,7 +172,7 @@ Follow these steps to set up and test the application locally.
     bash
     
     ```
-    <span class="token" style="color: rgb(220, 220, 170);">npm</span><span> start</span>
+    npm start
     ```
     
     Open http://localhost:3000 to verify the dashboard loads.
@@ -182,8 +182,7 @@ Follow these steps to set up and test the application locally.
     bash
     
     ```
-    <span class="token" style="color: rgb(78, 201, 176);">cd</span><span> </span><span class="token" style="color: rgb(212, 212, 212);">..</span><span>
-    </span><span></span><span class="token" style="color: rgb(220, 220, 170);">docker-compose</span><span> up --build</span>
+    docker-compose up --build
     ```
     
     Access the services:
@@ -203,7 +202,7 @@ Follow these steps to set up and test the application locally.
     bash
     
     ```
-    <span class="token" style="color: rgb(220, 220, 170);">docker-compose</span><span> </span><span class="token" style="color: rgb(78, 201, 176);">exec</span><span> backend python scripts/init_db.py</span>
+    docker-compose exec backend python scripts/init_db.py
     ```
     
 6.  Verify Celery Tasks: Check Celery worker logs to ensure tasks are running:
